@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def hello():
-    return "Hola 👋 Docker Build Checks + GitHub Actions\n"
+    return "Hola Docker Build Checks + GitHub Actions\n"
 
 if __name__ == "__main__":
     # Para ejecución local (no contenedor)
