@@ -4,7 +4,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Recomendación: copiar requirements primero para mejorar caché
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
